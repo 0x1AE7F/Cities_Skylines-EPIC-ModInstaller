@@ -15,10 +15,13 @@ Instructions:
   1. You need Python and Pip installed on your machine.
 
   2. Install the following library with pip:
+
      pip install time
   
   3. Make 2 Separate Folders, and sort the Mods in one and the Assets in the Other:
+
      HELP: If you see .dll files in the ZIP it means that this is a MOD.
+
            If you see .crp files in the ZIP it means that this is a ASSET.
   
   3. Start the Script and enter the Paths needed:
