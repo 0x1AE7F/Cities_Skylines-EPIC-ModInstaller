@@ -25,8 +25,11 @@ Instructions:
            If you see .crp files in the ZIP it means that this is a ASSET.
   
   3. Start the Script and enter the Paths needed:
-     WARNING: Replace the \ with / to prevent the script from crashing!
-     Example: F:\Cities_Skylines_Mods\MODS <-- BAD
+
+          WARNING: Replace the \ with / to prevent the script from crashing!
+
+          Example: F:\Cities_Skylines_Mods\MODS <-- BAD
+
               F:/Cities_Skylines_Mods/MODS <-- GOOD
               
   4. The Script will paste extract the .zip files and paste it in the desired folder.
