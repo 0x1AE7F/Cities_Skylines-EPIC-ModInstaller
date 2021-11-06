@@ -39,7 +39,7 @@ for first_file_assets in file_list_assets:
         file_location_assets = str(first_file_assets).replace(".zip", "")
         onlyfiles = [f for f in listdir(file_location_assets) if isfile(join(file_location_assets, f))]
         while True:
-            if ".dll" in onlyfiles[0]:
+            if ".crp" in onlyfiles[0]:
                 print("success!")
                 break
             else:
@@ -47,7 +47,7 @@ for first_file_assets in file_list_assets:
 
         dll_file = str(onlyfiles[0])
 
-        dll_file_name = dll_file.replace(".dll", "")
+        dll_file_name = dll_file.replace(".crp", "")
         zip_ref.extractall(input_assets_game + dll_file_name)
 
 print("Mods/Assets Install Finished!")
